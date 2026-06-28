@@ -28,7 +28,7 @@
 
 1. Склонируйте репозиторий:
    ```bash
-   git clone https://github.com/ВАШ_ЛОГИН/web-route-manager.git
+   git clone https://github.com/ivan-k-06/web-route-manager.git
    cd web-route-manager
    ```
 
