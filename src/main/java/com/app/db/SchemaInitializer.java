@@ -15,14 +15,14 @@ public final class SchemaInitializer {
         try (Connection connection = databaseManager.getConnection();
              Statement statement = connection.createStatement()) {
             statement.executeUpdate("""
-                    CREATE TABLE IF NOT EXISTS lab7_users (
+                    CREATE TABLE IF NOT EXISTS users (
                         id SERIAL PRIMARY KEY,
                         login TEXT NOT NULL UNIQUE,
                         password_hash TEXT NOT NULL
                     )
                     """);
             statement.executeUpdate("""
-                    CREATE TABLE IF NOT EXISTS lab7_routes (
+                    CREATE TABLE IF NOT EXISTS routes (
                         id BIGSERIAL PRIMARY KEY,
                         name TEXT NOT NULL,
                         coordinates_x DOUBLE PRECISION NOT NULL,
