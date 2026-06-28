@@ -10,10 +10,10 @@
 ## Технологический стек
 * **Язык:** Java 17
 * **Бэкенд:** Jakarta Servlet API 6.0 (Tomcat 10)
-* **Фронтенд:** HTML/CSS, JSP (JavaServer Pages), JSTL
-* **База данных:** PostgreSQL 15, чистый JDBC
+* **Фронтенд:** HTML/CSS, JSP, JSTL
+* **База данных:** PostgreSQL 15
 * **Сборка:** Maven
-* **Инфраструктура:** Docker, Docker Compose (многоэтапная сборка)
+* **Инфраструктура:** Docker, Docker Compose
 
 ## Основной функционал
 * Регистрация и авторизация пользователей
